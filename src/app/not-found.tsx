@@ -6,9 +6,9 @@ export const metadata = {
 
 export default function NotFound() {
   return (
-    <div className="mx-auto py-4 flex flex-col justify-center items-center gap-4 ">
-      <div className="px-2 w-full">
-        <h2 className="text-2xl"> Page Not Found</h2>
+    <div className="px-2 w-full">
+      <div className="mx-auto py-4 flex flex-col justify-center items-center gap-4">
+        <h2 className="text-2xl">Page Not Found</h2>
         <p className="text-lg">
           Sorry, the page you are looking for does not exist.
         </p>
@@ -17,10 +17,10 @@ export default function NotFound() {
           src="/images/not-found-1024x1024.png"
           width={300}
           height={300}
-          alt="not found"
           sizes="300px"
+          alt="Page Not Found"
           priority={true}
-          title="Page not found"
+          title="Page Not Found"
         />
       </div>
     </div>
